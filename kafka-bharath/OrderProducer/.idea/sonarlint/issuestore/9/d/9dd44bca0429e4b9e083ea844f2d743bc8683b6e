@@ -1,0 +1,10 @@
+
+}
+java:S6213":Rename this variable to not match a restricted identifier.(É„²‘8ú¿›€ø1J$ff6678cb-bbcc-4696-9c63-e4bb943840ff
+m	java:S106"+Replace this use of System.out by a logger.(šõüâ8ş¿›€ø1J$bf9f55e7-3302-42a4-aac6-00431591914f
+j
+java:S1128"MRemove this unused import 'org.apache.kafka.clients.producer.RecordMetadata'.(éìåê8¿úÀ€ø1
+p
+java:S1128"SRemove this unused import 'org.apache.kafka.common.serialization.StringSerializer'.(Ş ¾ş8¿úÀ€ø1
+Z
+java:S1128	"8Remove this unused import 'java.util.concurrent.Future'.(á¬øíıÿÿÿÿ8ÀúÀ€ø1
