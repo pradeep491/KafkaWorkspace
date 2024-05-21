@@ -1,0 +1,9 @@
+{
+"namespace":"com.test.kafka",
+"type":"record",
+"name":"Order",
+"fields":[
+{"name":"customerName","type":"string"},
+
+]
+}

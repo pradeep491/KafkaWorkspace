@@ -1,6 +1,4 @@
 
-V
-&src/main/java/com/test/kafka/Main.java,2\5\2513882da6f9924e8788e5127f41fd2b9578f833
 7
 pom.xml,4\4\442292b8a7efeabbe4cc176709b833b1792140ec
 _
