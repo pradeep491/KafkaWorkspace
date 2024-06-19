@@ -1,4 +1,5 @@
 
-U
-java:S6213":Rename this variable to not match a restricted identifier.(ñƒ›§ùÿÿÿÿ
-@	java:S106"+Replace this use of System.out by a logger.(šõüâ
+‚
+java:S6213":Rename this variable to not match a restricted identifier.(ð‰úÜþÿÿÿÿ8Í«ÿ…‚2J$64d292e3-dad7-4732-8af1-4f09e32e3b1c
+ƒ	java:S125"<This block of commented-out lines of code should be removed.(Ê™Žàþÿÿÿÿ8Î«ÿ…‚2J$acbd739c-9865-47d7-817f-76f1cca9d810
+m	java:S106"+Replace this use of System.out by a logger.(šõüâ8Ð«ÿ…‚2J$dd2923c3-08dc-4201-af96-0d8984d747d6

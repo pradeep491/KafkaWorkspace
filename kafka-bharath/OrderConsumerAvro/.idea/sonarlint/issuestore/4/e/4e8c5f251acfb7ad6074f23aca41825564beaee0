@@ -1,0 +1,9 @@
+
+‚
+java:S6213":Rename this variable to not match a restricted identifier.(È¶È½ÿÿÿÿÿ8²†°†‚2J$b6a41294-3104-46eb-80ff-06aa279e89cb
+l	java:S106"+Replace this use of System.out by a logger.(¦ŞçD8³†°†‚2J$1d47ff66-63c8-4c53-a42c-493b053b4aa5
+r	java:S106"+Replace this use of System.out by a logger.(¦à øÿÿÿÿ8³†°†‚2J$7f52477b-8916-43cb-af7e-0650e36af68e
+r	java:S106 "+Replace this use of System.out by a logger.(Ä©ˆÕıÿÿÿÿ8´†°†‚2J$00ba242b-c064-4bb7-b6a7-077cee5ba651
+r	java:S106!"+Replace this use of System.out by a logger.(³›öºşÿÿÿÿ8ªµú†‚2J$516031dc-adb4-47df-87e5-f06bc851a909
+q
+java:S1128"TRemove this unnecessary import: same package classes are always implicitly imported.(´ŞÛ¶8Ë›Óˆ‚2

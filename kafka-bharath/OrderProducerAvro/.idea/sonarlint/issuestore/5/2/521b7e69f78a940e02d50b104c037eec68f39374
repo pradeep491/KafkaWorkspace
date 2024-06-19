@@ -1,0 +1,30 @@
+
+f	java:S117k"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ûùõú
+k	java:S117w"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(®•’ûÿÿÿÿ
+k	java:S117w"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(®•’ûÿÿÿÿ
+A
+java:S2160"+Override the "equals" method in this class.(¨¢ö„
+I
+java:S1948L".Make "customerName" transient or serializable.(Ğùè³ÿÿÿÿÿ
+D
+java:S1948M")Make "product" transient or serializable.(¶é°œùÿÿÿÿ
+B
+java:S2160Ù"+Override the "equals" method in this class.(é–Øİ
+Q
+java:S6213ˆ":Rename this variable to not match a restricted identifier.(¥Ë£¾
+D
+java:S1905—".Remove this unnecessary cast to "DatumWriter".(­úñf
+E
+java:S1905 ".Remove this unnecessary cast to "DatumReader".( Ú ¿
+h
+java:S3776´"RRefactor this method to reduce its Cognitive Complexity from 19 to the 15 allowed.(Ö’®S
+^
+java:S6201¹"BReplace this instanceof check and cast with 'instanceof Utf8 utf8'(ÌËåøÿÿÿÿ
+Y
+java:S6201»"BReplace this instanceof check and cast with 'instanceof Utf8 utf8'(¤‰çÜ
+^
+java:S6201Ã"BReplace this instanceof check and cast with 'instanceof Utf8 utf8'(ÌËåøÿÿÿÿ
+Y
+java:S6201Ç"BReplace this instanceof check and cast with 'instanceof Utf8 utf8'(¤‰çÜ
+W
+java:S1128"ARemove this unused import 'org.apache.avro.generic.GenericArray'.(é¥œÿ

@@ -1,0 +1,28 @@
+
+Œ	java:S117j"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ã¿×—J$34ee094c-7c1b-47fc-81c6-bd0be05fddb2
+‘	java:S117v"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ŞŒÔ»ÿÿÿÿÿJ$97ac665e-8836-408c-b6c3-2b6c082fd5ae
+‘	java:S117v"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ŞŒÔ»ÿÿÿÿÿJ$89a26abe-a356-4736-8a84-ed3c6c9a8408
+g
+java:S2160"+Override the "equals" method in this class.(¨¢ö„J$c1cef502-d166-44fb-974d-c5c2ac45306c
+o
+java:S1948K".Make "customerName" transient or serializable.(ÊöôûÿÿÿÿJ$390c0f57-c8e1-4070-bfad-6f50644daa89
+j
+java:S1948L")Make "product" transient or serializable.(Ø–ŒÅüÿÿÿÿJ$ee30a8e9-9f3f-4b09-80c2-4f08e4553814
+h
+java:S2160Ø"+Override the "equals" method in this class.(é–ØİJ$d18fe3c0-d125-450d-b3f2-d5770925f94c
+w
+java:S6213‡":Rename this variable to not match a restricted identifier.(¥Ë£¾J$858bc90d-1c0e-4a05-81ee-0d6e06004a54
+j
+java:S1905–".Remove this unnecessary cast to "DatumWriter".(­úñfJ$dbfd37c3-cc98-464e-85ff-e23c86d57b4c
+k
+java:S1905Ÿ".Remove this unnecessary cast to "DatumReader".( Ú ¿J$ca36c376-eb28-4f21-b615-dd6d29a97def
+
+java:S3776³"RRefactor this method to reduce its Cognitive Complexity from 19 to the 15 allowed.(Ö’®SJ$17c67809-be1d-4996-90c8-4e262032f21e
+„
+java:S6201¸"BReplace this instanceof check and cast with 'instanceof Utf8 utf8'(ÌËåøÿÿÿÿJ$75b737c3-4faf-4ee9-997f-4f30d5b639ea
+
+java:S6201º"BReplace this instanceof check and cast with 'instanceof Utf8 utf8'(¤‰çÜJ$01f74703-f6bd-40fa-9b54-4557b43be202
+„
+java:S6201Â"BReplace this instanceof check and cast with 'instanceof Utf8 utf8'(ÌËåøÿÿÿÿJ$0bff4b4d-1cdf-46c5-b6c8-406266e5a819
+
+java:S6201Æ"BReplace this instanceof check and cast with 'instanceof Utf8 utf8'(¤‰çÜJ$a8e56bd2-846e-4a36-bb8d-eb6edc1f80d9
