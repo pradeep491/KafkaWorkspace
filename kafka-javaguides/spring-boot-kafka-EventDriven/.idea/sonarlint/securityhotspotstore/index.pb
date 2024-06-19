@@ -23,3 +23,9 @@ z
 Jorder-service/src/main/java/com/test/orderservice/kafka/KafkaProducer.java,3\c\3c14d80a6900e79db0b27f5bcc0e09e88f2be7af
 z
 Jorder-service/src/main/java/com/test/orderservice/kafka/OrderProducer.java,0\2\02ad54cd4b45154243eae70ae30df6a5973ecb4b
+Å
+Qorder-service/src/main/java/com/test/orderservice/controller/OrderController.java,8\e\8e783655e4b80613d3e31f6658e07146924f83dc
+z
+Jstock-service/src/main/java/com/test/stockservice/kafka/OrderConsumer.java,5\a\5a93cabae1510adcce60bc3114c7dec5f0446864
+z
+Jemail-service/src/main/java/com/test/emailservice/kafka/OrderConsumer.java,d\a\da70cf6aef354beb46469f03df5eb63a8bf99a4a
