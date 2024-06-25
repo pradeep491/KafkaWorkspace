@@ -1,0 +1,15 @@
+
+p
+java:S16045"(Make this anonymous inner class a lambda(©¨žÏüÿÿÿÿ8¸­å­„2J$6dce2464-6884-40ba-96fb-080bca937c7e
+]
+java:S1220""Move this file to a named package.8º­å­„2J$2ad421bc-8f4f-40fc-adbe-52b410b26e93
+ƒ	java:S125"<This block of commented-out lines of code should be removed.(ü«¬×þÿÿÿÿ8Ä­å­„2J$cf89afcd-1d5c-4aca-94f4-c34622d8309a
+Ä
+java:S1186 "€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(ü±Þþ8Ç­å­„2J$47e99f20-10ef-4922-a293-ac39cf9f4e5c
+‚
+java:S6213)":Rename this variable to not match a restricted identifier.(È¶È½ÿÿÿÿÿ8Ê­å­„2J$ad319baa-be47-453d-917d-cf40d595915d
+l	java:S106,"+Replace this use of System.out by a logger.(¦ÞçD8Ê­å­„2J$41fcfd42-e207-4678-a43a-058d519e76f0
+r	java:S106-"+Replace this use of System.out by a logger.(¦à øÿÿÿÿ8Ë­å­„2J$bea9d50f-5557-45b1-bd13-78d6b1948e1c
+r	java:S106."+Replace this use of System.out by a logger.(Ä©ˆÕýÿÿÿÿ8Ë­å­„2J$23110cb9-d6a1-4ddf-aec2-db6bc27583aa
+m	java:S106/"+Replace this use of System.out by a logger.(ÞãÉÙ8Ë­å­„2J$391b80ea-060e-4a76-8d07-92dc697468d4
+r	java:S1069"+Replace this use of System.out by a logger.(“˜èöþÿÿÿÿ8Í­å­„2J$766b8a1b-a6cb-4420-8024-4fa570c4b6b6

@@ -1,0 +1,7 @@
+
+m	java:S106#"+Replace this use of System.out by a logger.(£­İ8ò¥Ğ°„2J$4c783e6b-4c70-4512-9c94-9629f023314b
+r	java:S106$"+Replace this use of System.out by a logger.(´¡¦şÿÿÿÿ8ò¥Ğ°„2J$3c6257b2-ef0f-45e7-963f-0ce3be2da3d2
+
+java:S1128"LRemove this unused import 'org.apache.kafka.clients.producer.KafkaProducer'.(ªŒ»8ıÑ°„2J$25f250c0-41b0-4ddd-a382-a3adede68ce6
+•
+java:S1128"MRemove this unused import 'org.apache.kafka.clients.producer.ProducerRecord'.(ä°«¡üÿÿÿÿ8ıÑ°„2J$2e387a83-630b-4800-8b10-e3a2dec32da8
