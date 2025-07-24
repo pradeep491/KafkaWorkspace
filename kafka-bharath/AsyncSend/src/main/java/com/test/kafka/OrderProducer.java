@@ -12,7 +12,7 @@ public class OrderProducer {
         props.setProperty("key.serializer", "org.apache.kafka.common.serialization.StringSerializer");
         props.setProperty("value.serializer", "org.apache.kafka.common.serialization.IntegerSerializer");
         KafkaProducer<String, Integer> producer = new KafkaProducer<>(props);
-        ProducerRecord<String, Integer> record = new ProducerRecord<>("OrderTopic", "Mac Book Pro", 10);
+        ProducerRecord<String, Integer> record = new ProducerRecord<>("OrderTopic", "Samsung Laptops", 10);
         try {
             producer.send(record,new OrderCallback());
         } catch (Exception e) {
