@@ -1,6 +1,10 @@
 package com.test.service;
 
 import com.test.avro.Order;
+import org.apache.avro.Schema;
+import org.apache.avro.Schema.Parser;
+import org.apache.avro.generic.GenericData;
+import org.apache.avro.generic.GenericRecord;
 import org.springframework.kafka.core.KafkaTemplate;
 import org.springframework.kafka.support.SendResult;
 import org.springframework.stereotype.Service;
@@ -29,5 +33,42 @@ public class KafkaMessagePublisher {
                         order.toString() + "] due to : " + ex.getMessage());
             }
         });
+    }
+    public void sendGenericRecordToTopic() {
+        GenericRecord order = getGenericRecord();
+        try {
+            kafkaTemplate.send("bharath-avro", order.get("customerName").toString(), order);
+            System.out.println("Generic Record Data sent successfully ..");
+        }catch(Exception e){
+            System.out.println(e.getMessage());
+        }
+    }
+
+    private static GenericRecord getGenericRecord() {
+        Parser parser = new Schema.Parser();
+        Schema schema = parser.parse("{\n" +
+                "  \"namespace\": \"com.test.avro\",\n" +
+                "  \"type\": \"record\",\n" +
+                "  \"name\": \"Order\",\n" +
+                "  \"fields\": [\n" +
+                "    {\n" +
+                "      \"name\": \"customerName\",\n" +
+                "      \"type\": \"string\"\n" +
+                "    },\n" +
+                "    {\n" +
+                "      \"name\": \"product\",\n" +
+                "      \"type\": \"string\"\n" +
+                "    },\n" +
+                "    {\n" +
+                "      \"name\": \"quantity\",\n" +
+                "      \"type\": \"int\"\n" +
+                "    }\n" +
+                "  ]\n" +
+                "}");
+        GenericRecord order = new GenericData.Record(schema);
+        order.put("customerName", "pradeep jasvin");
+        order.put("product", 1);
+        order.put("quantity", 2);
+        return order;
     }
 }

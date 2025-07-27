@@ -25,4 +25,15 @@ public class OrderController {
                     .build();
         }
     }
+    //kafka GenericRecord topic example- not working
+    @PostMapping("/publishGenericRecord")
+    public ResponseEntity<?> publishMessageViaGenericRecord() {
+        try {
+            publisher.sendGenericRecordToTopic();
+            return ResponseEntity.ok("message published successfully ..");
+        } catch (Exception ex) {
+            return ResponseEntity.status(HttpStatus.INTERNAL_SERVER_ERROR)
+                    .build();
+        }
+    }
 }

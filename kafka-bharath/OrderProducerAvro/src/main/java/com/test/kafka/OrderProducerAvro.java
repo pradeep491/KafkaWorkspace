@@ -10,10 +10,10 @@ import java.util.Properties;
 public class OrderProducerAvro {
     public static void main(String[] args) {
         Properties props = new Properties();
-        props.setProperty("bootstrap.servers", "172.28.132.204:9092");
+        props.setProperty("bootstrap.servers", "127.0.0.1:9092");
         props.setProperty("key.serializer", KafkaAvroSerializer.class.getName());
         props.setProperty("value.serializer", KafkaAvroSerializer.class.getName());
-        props.setProperty("schema.registry.url","http://172.28.132.204:8081");
+        props.setProperty("schema.registry.url","http://127.0.0.1:8081");
         KafkaProducer<String, Order> producer = new KafkaProducer<>(props);
         Order order = new Order("pradeep1","one plus1",3);
         //can also use setters
