@@ -15,7 +15,7 @@ public class OrderProducer {
         props.setProperty("partitioner.class", VIPPartitioner.class.getName());
         KafkaProducer<String, Order> producer = new KafkaProducer<>(props);
         Order order = new Order();
-        order.setCustomerName("john");
+        order.setCustomerName("pradeep");
         order.setProduct("one plus");
         order.setQuantity(2);
         ProducerRecord<String, Order> record = new ProducerRecord<>("OrderPartitionedTopic", order.getCustomerName(), order);
